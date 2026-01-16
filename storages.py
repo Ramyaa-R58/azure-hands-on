@@ -32,7 +32,6 @@ def resource_groups():
     # resource_client.resource_groups.create_or_update('new_resource_grp', {
     #     'location': 'eastus'
     # })
-    storage_account()
 def storage_account():
     storage_client = StorageManagementClient(credential,AZURE_SUBSCRIPTION_ID)
     # to check available name for storage accounts
